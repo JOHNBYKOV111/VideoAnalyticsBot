@@ -1,0 +1,111 @@
+echo "# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite3-journal
+
+# PostgreSQL
+postgres_data/
+pgdata/
+postgresql/
+*.pid
+postmaster.opts
+postmaster.pid
+pg_log/
+pg_stat_tmp/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+data/
+db/migrations/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Virtual Environment
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+._*
+
+# Windows
+[Tt]humbs.db
+Desktop.ini
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Temp files
+*.tmp
+*.temp
+*~
+" > .gitignore
